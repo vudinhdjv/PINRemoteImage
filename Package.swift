@@ -13,7 +13,7 @@ let package = Package(
     products: [
         .library(
             name: "PINRemoteImage",
-            type: .static,
+            type: .dynamic,
             targets: ["PINRemoteImage"]),
     ],
     dependencies: [
